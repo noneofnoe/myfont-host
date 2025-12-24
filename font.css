@@ -1,3 +1,13 @@
+/* --- Cruinn (алиас 1: как Тильда ругается) --- */
+@font-face {
+  font-family: "cruinn";
+  src: url("font/Cruinn.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Cruinn (алиас 2: для людей) --- */
 @font-face {
   font-family: "Cruinn";
   src: url("font/Cruinn.woff") format("woff");
@@ -6,11 +16,11 @@
   font-display: swap;
 }
 
+/* --- Ultramono Wide Black --- */
 @font-face {
   font-family: "UltramonoWide-Black";
   src: url("font/UltramonoWide-Black.woff") format("woff");
-  font-weight: 400;
+  font-weight: 900; /* если это реально black */
   font-style: normal;
   font-display: swap;
 }
-
